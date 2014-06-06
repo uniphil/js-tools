@@ -1,0 +1,16 @@
+{
+  "name": "js-tools",
+  "version": "0.0.0",
+  "description": "tools setup",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uniphil/js-tools"
+  },
+  "devDependencies": {
+    "gulp": "",
+    "amd-optimize": ""
+  }
+}
