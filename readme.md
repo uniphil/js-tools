@@ -13,3 +13,37 @@ A quick test of the awesome new tools for front-end development. Learning is the
 
 
 When everything is together, the repository should act as a solid reference for the set-up of the chosen tools.
+
+
+Installing
+==========
+
+
+Runtimes
+--------
+
+### [node](http://nodejs.org/)
+
+Node is required for `Bower`, and to use `r.js` to build the javascript app from RequireJS.
+
+
+Tools
+-----
+
+### [Bower](http://bower.io)
+
+Bower is used to install other front-end dependencies, so that they need not be tracked in the project source.
+
+```bash
+$ sudo npm install -g bower
+```
+
+
+Dependencies
+------------
+
+Once you have bower installed, all project dependencies can be installed with it. Just run the following from the root of the project
+
+```bash
+$ bower install
+```

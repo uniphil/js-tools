@@ -1,0 +1,8 @@
+{
+  "name": "JS Tools",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": null,
+    "requirejs": null
+  }
+}
