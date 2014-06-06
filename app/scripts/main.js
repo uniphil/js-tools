@@ -1,8 +1,12 @@
-define(function (require) {
-  var $          = require('jquery');
-  var someModule = require('some-module');
+require.config({
+  baseUrl: "scripts",
+  paths: {
+    "jquery": "vendor/jquery/dist/jquery",
+    "underscore": "vendor/underscore-amd/underscore",
+    "backbone": "vendor/backbone-amd/backbone"
+  }
+});
 
-  var thing = $('#thing');
-  someModule.invert(thing);
-
+require(['views/app'], function(AppView) {
+  new AppView;
 });
